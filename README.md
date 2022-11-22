@@ -20,7 +20,7 @@ ___
 4. `bench clear-cache`
 ___
 
-#### Key Features of Gym Management
+#### Key Features of Law Management
 1. Client Request Process
 2. Matter Process
 3. Lawyer create Process
