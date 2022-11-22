@@ -3,9 +3,7 @@ from . import __version__ as app_version
 app_name = "law_management"
 app_title = "Law Management"
 app_publisher = "Solufy"
-app_description = "Law Management, Legal Management, This module allows to manage lawyers,clients, matters(cases), trials and its invoicing."
-app_icon = "octicon octicon-file-directory"
-app_color = "grey"
+app_description = "Manage lawyers, clients, matters(cases), trials and its invoicing"
 app_email = "contact@solufy.in"
 app_license = "MIT"
 
@@ -18,6 +16,9 @@ fixtures = [{
 			"name": [ "in", ["Matter", "Client Request"] ]
 			}
 		},
+	{
+	"doctype": "Workflow State"
+    },
 	]
 
 
@@ -45,6 +46,7 @@ fixtures = [{
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
+
 # Home Pages
 # ----------
 
@@ -61,6 +63,15 @@ fixtures = [{
 
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
+
+# Jinja
+# ----------
+
+# add methods and filters to jinja environment
+# jinja = {
+#	"methods": "law_management.utils.jinja_methods",
+#	"filters": "law_management.utils.jinja_filters"
+# }
 
 # Installation
 # ------------
@@ -85,11 +96,11 @@ fixtures = [{
 # Permissions evaluated in scripted ways
 
 # permission_query_conditions = {
-# 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
+#	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
 # }
 #
 # has_permission = {
-# 	"Event": "frappe.desk.doctype.event.event.has_permission",
+#	"Event": "frappe.desk.doctype.event.event.has_permission",
 # }
 
 # DocType Class
@@ -97,7 +108,7 @@ fixtures = [{
 # Override standard doctype classes
 
 # override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
+#	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
 # Document Events
@@ -105,12 +116,13 @@ fixtures = [{
 # Hook on document methods and events
 
 # doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
+#	"*": {
+#		"on_update": "method",
+#		"on_cancel": "method",
+#		"on_trash": "method"
 #	}
 # }
+
 
 doc_events = {
     'Client Request': {
@@ -125,26 +137,25 @@ doc_events = {
   	},
 };
 
-
 # Scheduled Tasks
 # ---------------
 
 # scheduler_events = {
-# 	"all": [
-# 		"law_management.tasks.all"
-# 	],
-# 	"daily": [
-# 		"law_management.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"law_management.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"law_management.tasks.weekly"
-# 	]
-# 	"monthly": [
-# 		"law_management.tasks.monthly"
-# 	]
+#	"all": [
+#		"law_management.tasks.all"
+#	],
+#	"daily": [
+#		"law_management.tasks.daily"
+#	],
+#	"hourly": [
+#		"law_management.tasks.hourly"
+#	],
+#	"weekly": [
+#		"law_management.tasks.weekly"
+#	],
+#	"monthly": [
+#		"law_management.tasks.monthly"
+#	],
 # }
 
 # Testing
@@ -156,14 +167,14 @@ doc_events = {
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "law_management.event.get_events"
+#	"frappe.desk.doctype.event.event.get_events": "law_management.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "law_management.task.get_dashboard_data"
+#	"Task": "law_management.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -174,38 +185,30 @@ doc_events = {
 # User Data Protection
 # --------------------
 
-user_data_fields = [
-	{
-		"doctype": "{doctype_1}",
-		"filter_by": "{filter_by}",
-		"redact_fields": ["{field_1}", "{field_2}"],
-		"partial": 1,
-	},
-	{
-		"doctype": "{doctype_2}",
-		"filter_by": "{filter_by}",
-		"partial": 1,
-	},
-	{
-		"doctype": "{doctype_3}",
-		"strict": False,
-	},
-	{
-		"doctype": "{doctype_4}"
-	}
-]
+# user_data_fields = [
+#	{
+#		"doctype": "{doctype_1}",
+#		"filter_by": "{filter_by}",
+#		"redact_fields": ["{field_1}", "{field_2}"],
+#		"partial": 1,
+#	},
+#	{
+#		"doctype": "{doctype_2}",
+#		"filter_by": "{filter_by}",
+#		"partial": 1,
+#	},
+#	{
+#		"doctype": "{doctype_3}",
+#		"strict": False,
+#	},
+#	{
+#		"doctype": "{doctype_4}"
+#	}
+# ]
 
 # Authentication and authorization
 # --------------------------------
 
 # auth_hooks = [
-# 	"law_management.auth.validate"
+#	"law_management.auth.validate"
 # ]
-
-# Translation
-# --------------------------------
-
-# Make link fields search translated document names for these DocTypes
-# Recommended only for DocTypes which have limited documents with untranslated names
-# For example: Role, Gender, etc.
-# translated_search_doctypes = []

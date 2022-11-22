@@ -33,6 +33,13 @@
   "opposition_lawyer",
   "contact_person_details_section",
   "contact_person_details",
+  "court_details_section",
+  "court",
+  "detail_of_case",
+  "case_date",
+  "judge_name",
+  "sitting_details",
+  "sitting_info",
   "history_section",
   "history"
  ],
@@ -203,14 +210,54 @@
    "fieldtype": "Table",
    "label": "History",
    "options": "History"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "court_details_section",
+   "fieldtype": "Section Break",
+   "label": "Court Details"
+  },
+  {
+   "fieldname": "court",
+   "fieldtype": "Link",
+   "label": "Court",
+   "options": "Court"
+  },
+  {
+   "fieldname": "detail_of_case",
+   "fieldtype": "Long Text",
+   "label": "Detail of Case"
+  },
+  {
+   "fieldname": "sitting_details",
+   "fieldtype": "Heading",
+   "label": "Sitting Details"
+  },
+  {
+   "fieldname": "sitting_info",
+   "fieldtype": "Table",
+   "label": "Sitting Info",
+   "options": "Sitting Info"
+  },
+  {
+   "fieldname": "case_date",
+   "fieldtype": "Date",
+   "label": "Case Date"
+  },
+  {
+   "fieldname": "judge_name",
+   "fieldtype": "Link",
+   "label": "Judge Name",
+   "options": "Judge Details"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-07-06 17:04:25.943853",
+ "modified": "2022-11-22 15:21:38.604093",
  "modified_by": "Administrator",
  "module": "Law Management",
  "name": "Matter",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
@@ -228,5 +275,6 @@
  ],
  "search_fields": "matter_name",
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "states": []
 }

@@ -9,7 +9,7 @@ from law_management import __version__ as version
 setup(
 	name="law_management",
 	version=version,
-	description="Law Management, Legal Management, This module allows to manage lawyers,clients, matters(cases), trials and its invoicing.",
+	description="Manage lawyers, clients, matters(cases), trials and its invoicing",
 	author="Solufy",
 	author_email="contact@solufy.in",
 	packages=find_packages(),

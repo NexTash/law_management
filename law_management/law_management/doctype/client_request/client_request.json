@@ -13,7 +13,8 @@
   "email",
   "matter_details_section",
   "matter_type",
-  "brief_description"
+  "brief_description",
+  "workflow_state"
  ],
  "fields": [
   {
@@ -58,14 +59,20 @@
    "fieldname": "brief_description",
    "fieldtype": "Long Text",
    "label": "Brief Description"
+  },
+  {
+   "fieldname": "workflow_state",
+   "fieldtype": "Data",
+   "label": "Workflow State"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-07-13 12:41:42.411668",
+ "modified": "2022-11-21 16:33:49.925256",
  "modified_by": "Administrator",
  "module": "Law Management",
  "name": "Client Request",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
@@ -94,5 +101,6 @@
   }
  ],
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "states": []
 }

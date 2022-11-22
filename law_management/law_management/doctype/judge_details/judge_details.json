@@ -26,10 +26,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-07-04 15:58:12.990894",
+ "modified": "2022-11-22 16:54:13.802970",
  "modified_by": "Administrator",
  "module": "Law Management",
  "name": "Judge Details",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
@@ -46,5 +47,6 @@
   }
  ],
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "states": []
 }

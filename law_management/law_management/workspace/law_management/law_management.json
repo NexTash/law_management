@@ -1,41 +1,28 @@
 {
- "cards_label": "",
- "category": "Modules",
  "charts": [],
- "creation": "2022-07-04 15:41:55.899609",
- "developer_mode_only": 0,
- "disable_user_customization": 0,
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Law Management</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Request\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Matter\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lawyer\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Masters &amp; Reports\",\"col\":4}}]",
+ "creation": "2022-11-21 15:44:18.589576",
  "docstatus": 0,
  "doctype": "Workspace",
- "extends_another_page": 0,
+ "for_user": "",
  "hide_custom": 0,
- "icon": "",
+ "icon": "share",
  "idx": 0,
- "is_default": 0,
- "is_standard": 1,
  "label": "Law Management",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Configurations",
-   "link_type": "DocType",
+   "label": "Masters &amp; Reports",
+   "link_count": 8,
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Categories",
-   "link_to": "Categories",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Judge Details",
+   "link_count": 0,
    "link_to": "Judge Details",
    "link_type": "DocType",
    "onboard": 0,
@@ -44,7 +31,18 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Categories",
+   "link_count": 0,
+   "link_to": "Categories",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Practice Area",
+   "link_count": 0,
    "link_to": "Practice Area",
    "link_type": "DocType",
    "onboard": 0,
@@ -54,6 +52,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Degrees",
+   "link_count": 0,
    "link_to": "Degrees",
    "link_type": "DocType",
    "onboard": 0,
@@ -63,6 +62,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Institutes",
+   "link_count": 0,
    "link_to": "Institutes",
    "link_type": "DocType",
    "onboard": 0,
@@ -72,6 +72,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Universities",
+   "link_count": 0,
    "link_to": "Universities",
    "link_type": "DocType",
    "onboard": 0,
@@ -80,7 +81,8 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Client Services",
+   "label": "Client Service",
+   "link_count": 0,
    "link_to": "Client Services",
    "link_type": "DocType",
    "onboard": 0,
@@ -90,47 +92,54 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Court",
+   "link_count": 0,
    "link_to": "Court",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2022-07-13 10:32:10.530323",
+ "modified": "2022-11-22 15:43:17.116029",
  "modified_by": "Administrator",
  "module": "Law Management",
  "name": "Law Management",
  "owner": "Administrator",
- "pin_to_bottom": 0,
- "pin_to_top": 0,
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
  "shortcuts": [
   {
+   "color": "Green",
    "doc_view": "List",
    "label": "Client Request",
    "link_to": "Client Request",
+   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
    "type": "DocType"
   },
   {
-   "doc_view": "List",
-   "label": "Matter",
-   "link_to": "Matter",
-   "type": "DocType"
-  },
-  {
+   "color": "Grey",
    "doc_view": "List",
    "label": "Lawyer",
    "link_to": "Customer",
-   "stats_filter": "{\n    \"is_lawyer\": [\"!=\" , [\"0\"]]\n}\n",
    "type": "DocType"
   },
   {
-   "color": "",
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Matter",
+   "link_to": "Matter",
+   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
    "doc_view": "List",
    "label": "Client",
    "link_to": "Customer",
-   "stats_filter": "{\n    \"is_client\": [\"!=\" , [\"0\"]]\n}\n",
    "type": "DocType"
   }
  ],
- "shortcuts_label": "Law Management"
+ "title": "Law Management"
 }

@@ -7,9 +7,6 @@
   "modified": "2022-07-05 17:54:51.516559",
   "name": "Matter",
   "override_status": 0,
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
   "send_email_alert": 1,
   "states": [
    {
@@ -157,9 +154,6 @@
   "modified": "2022-07-05 12:24:49.968175",
   "name": "Client Request",
   "override_status": 0,
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
   "send_email_alert": 1,
   "states": [
    {
