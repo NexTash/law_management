@@ -19,6 +19,9 @@ fixtures = [{
 	{
 	"doctype": "Workflow State"
     },
+    {
+	"doctype": "Workflow Action Master"
+    },
 	]
 
 

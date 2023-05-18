@@ -3,6 +3,69 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
+  "modified": "2022-11-23 16:47:38.462370",
+  "name": "Assigned",
+  "style": "",
+  "workflow_state_name": "Assigned"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-23 16:48:05.289504",
+  "name": "Work In Progress",
+  "style": "",
+  "workflow_state_name": "Work In Progress"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-23 16:49:14.278825",
+  "name": "Needs Reply",
+  "style": "",
+  "workflow_state_name": "Needs Reply"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-23 16:49:28.657776",
+  "name": "Reopened",
+  "style": "",
+  "workflow_state_name": "Reopened"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-23 16:49:53.167913",
+  "name": "Solution Suggested",
+  "style": "",
+  "workflow_state_name": "Solution Suggested"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-30 14:42:36.625601",
+  "name": "Submitted",
+  "style": "",
+  "workflow_state_name": "Submitted"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-01 10:29:49.657682",
+  "name": "Assign to Technician",
+  "style": "",
+  "workflow_state_name": "Assign to Technician"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
   "modified": "2022-10-31 17:15:13.878816",
   "name": "Registered",
   "style": "Success",

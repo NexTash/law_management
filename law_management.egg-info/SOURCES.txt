@@ -18,6 +18,7 @@ law_management/config/docs.py
 law_management/fixtures/workflow.json
 law_management/fixtures/workflow_state.json
 law_management/law_management/__init__.py
+law_management/law_management/custom/customer.json
 law_management/law_management/doctype/__init__.py
 law_management/law_management/doctype/act/__init__.py
 law_management/law_management/doctype/act/act.js
@@ -93,6 +94,11 @@ law_management/law_management/doctype/practice_area/practice_area.js
 law_management/law_management/doctype/practice_area/practice_area.json
 law_management/law_management/doctype/practice_area/practice_area.py
 law_management/law_management/doctype/practice_area/test_practice_area.py
+law_management/law_management/doctype/sitting_info/__init__.py
+law_management/law_management/doctype/sitting_info/sitting_info.js
+law_management/law_management/doctype/sitting_info/sitting_info.json
+law_management/law_management/doctype/sitting_info/sitting_info.py
+law_management/law_management/doctype/sitting_info/test_sitting_info.py
 law_management/law_management/doctype/suspects/__init__.py
 law_management/law_management/doctype/suspects/suspects.json
 law_management/law_management/doctype/suspects/suspects.py
@@ -105,5 +111,7 @@ law_management/law_management/doctype/victims/__init__.py
 law_management/law_management/doctype/victims/victims.json
 law_management/law_management/doctype/victims/victims.py
 law_management/law_management/workspace/law_management/law_management.json
+law_management/public/js/custom.js
 law_management/templates/__init__.py
 law_management/templates/pages/__init__.py
+law_management/www/__init__.py
