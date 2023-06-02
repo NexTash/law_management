@@ -43,7 +43,7 @@ fixtures = [{
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
 
-# include js in doctype views
+# include js in doctype views  
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
@@ -87,7 +87,7 @@ fixtures = [{
 
 # before_uninstall = "law_management.uninstall.before_uninstall"
 # after_uninstall = "law_management.uninstall.after_uninstall"
-
+ 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
@@ -135,7 +135,7 @@ doc_events = {
   	},
   	'Matter': {
         'validate': [
-            'law_management.law_management.doctype.matter.matter.validate'
+            'law_management.law_management.doctype.matter.matter.validate'	
         ],
   	},
 };
